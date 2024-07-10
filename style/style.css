@@ -214,3 +214,8 @@ input[type="submit"]{
     margin: 30px auto;
     justify-content: space-between;
 }
+.footer-img{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
