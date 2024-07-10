@@ -169,7 +169,8 @@ margin-bottom: 24px;
 }
 /* support section */
 .support{
-    background-image: url('../assets/handshake.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.512),rgba(0, 0, 0, 0.564)), url('../assets/handshake.jpg');
+    border-radius: 16px;
     width: 1140px;
     height: 320px;
     margin: 100px auto;
@@ -192,9 +193,21 @@ color: white;
     margin: 16px auto;
 }
 input[type="text"]{
-    height: 50px;
-    width: 39%;
+    width: 45%;
+    padding: 19px 20px;
+    border-radius: 8px;
 }
 input[type="submit"]{
-    color:white;
+    background-color: white;
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight:600;
+    border-radius: 8px;
+}
+/* footer section */
+.footer{
+    display: flex;
+    width: 1140px;
+    margin: 30px auto;
+    justify-content: space-between;
 }
