@@ -70,3 +70,41 @@ body {
     border-radius: 8px;
     color: rgb(255, 255, 255);
 }
+/* development section */
+.development{
+    width: 850px;
+    margin: 74px auto;
+    padding: 80px 97px;
+}
+
+.development-heading h1{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.content{
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+}
+.content-text{
+    width: 59%;
+}
+
+.content-text h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 16px;
+}
+.content-text p{
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 32px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 0.7);
+    padding: 12px 20px;
+    background: none;
+}
