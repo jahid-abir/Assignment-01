@@ -108,3 +108,62 @@ body {
     padding: 12px 20px;
     background: none;
 }
+/* inspiration section */
+.inspiration{
+    width: 850px;
+    margin: 0 auto;
+}
+
+.inspiration h1{
+    font-size: 32px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.inspiration p{
+   color: rgba(13, 19, 33, 0.7);
+   
+   margin-bottom: 48px;
+}
+.video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin: 0 auto;
+    width: 1076px;
+}
+/* Skill section */
+.skills{
+    display: flex;
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    gap: 24px;
+}
+
+.skill-1{    
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding:40px;
+}
+.skill-2{    
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding:40px;
+}
+.skill-3{    
+    border-radius: 16px;
+     background: rgba(255, 223, 0, 0.05);
+     padding:40px;
+}
+.skills h1{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.skills p{
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+.skills a{
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+}
